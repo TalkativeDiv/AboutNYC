@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+/*global/menu styles*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*{
+   font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #272727;
+  color: #fff;
+}
+
+
+button{
+  color:#fff;
+  cursor: pointer;
+  margin-top:10px;
+  padding: 10px 100px;
+  border:2px;
+  border-radius:10px;
+}
+
+.doc{
+     background-color: #FF652F;
+   padding: 10px 75px;
+}
+.rate{
+     background-color: #FFE401;
+}
+
+.main{
+background-color: #13A76B;
+}
+
+.tbMenu{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+/*main styles*/
+.main-embed {
+     /*making space for header*/
+     margin-top: 10px;
+     /*making size 100% so that it will be big enough*/
+     size: 100%;
+     /*i dont even know what this is*/
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+     border: 50px 50px solid;
+     border-color: #202020;
+     border-radius: 7px;
+   }
+   #LblCredits{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   #btnGoBack{
+        background-color: #8C62D5;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 200px;
+   }
