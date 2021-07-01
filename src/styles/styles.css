@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 /*global/menu styles*/
-*,
+*, 
 *::before,
 *::after {
   box-sizing: border-box;
@@ -64,16 +64,17 @@ align-items: center;
      border-color: #202020;
      border-radius: 7px;
    }
-   #LblCredits{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-   }
    #btnGoBack{
+     margin-top: 10%;
         background-color: #8C62D5;
-        position: absolute;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin-top: 200px;
    }
+
+#imgLogo{
+  margin-left:-2%;
+}
+
+section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
