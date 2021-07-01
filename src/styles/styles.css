@@ -32,15 +32,13 @@ button{
   border-radius:10px;
 }
 
-.doc{
+#btnDoc{
      background-color: #FF652F;
    padding: 10px 75px;
 }
-.rate{
-     background-color: #FFE401;
-}
 
-.main{
+
+#btnMain{
 background-color: #13A76B;
 }
 
