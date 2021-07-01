@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 /*global/menu styles*/
-*, 
+*,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-*{
-   font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -22,53 +22,56 @@ body {
   color: #fff;
 }
 
-
-button{
-  color:#fff;
+button {
+  color: #fff;
   cursor: pointer;
-  margin-top:10px;
+  margin-top: 10px;
   padding: 10px 100px;
-  border:2px;
-  border-radius:10px;
+  border: 2px;
+  border-radius: 10px;
 }
 
-#btnDoc{
-     background-color: #FF652F;
-   padding: 10px 75px;
+#btnDoc {
+  background-color: #ff652f;
+  padding: 10px 75px;
 }
 
-
-#btnMain{
-background-color: #13A76B;
+#btnMain {
+  background-color: #13a76b;
 }
 
-.tbMenu{
-display: flex;
-justify-content:center;
-align-items: center;
+.tbMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*main styles*/
 .main-embed {
-     /*making space for header*/
-     margin-top: 10px;
-     /*making size 100% so that it will be big enough*/
-     size: 100%;
-     /*i dont even know what this is*/
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 40%;
-     border: 50px 50px solid;
-     border-color: #202020;
-     border-radius: 7px;
-   }
-   #btnGoBack{
-     margin-top: 10%;
-        background-color: #8C62D5;
-   }
+  /*making space for header*/
+  margin-top: 10px;
+  /*making size 100% so that it will be big enough*/
+  size: 100%;
+  /*i dont even know what this is*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 50px 50px solid #202020;
+  border-color: #3a3a3a;
+  border-radius: 7px;
+}
+#btnGoBack {
+  margin-top: 10%;
+  background-color: #FFE401;
+  color: #000;
+}
 
-#imgLogo{
-  margin-left:-2%;
+#imgLogo {
+  margin-left: -2%;
+  width: 7%;
+  height: 7%;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 section {

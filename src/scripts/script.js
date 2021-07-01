@@ -1,7 +1,6 @@
 /* consts*/
 const btnMenu = document.getElementById("btnMain");
 const btnDoc = document.getElementById("btnDoc");
-const btnGoBack = document.getElementById("btnGoBack");
 /*Menu*/
 /*
   btnMenu.click = () =>{
@@ -15,9 +14,4 @@ btnDoc.addEventListener("click", function(){
      window.location.href = 'https://abhipieznomnomnom.gitbook.io/abtnyc/';
    });
 
-/*main app*/
-
-btnGoBack.addEventListener("click", function(){
-     window.location.href = 'index.html';
-});
-
+/*wished i chould add onclick in js for the go back button*/
