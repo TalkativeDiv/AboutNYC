@@ -1,6 +1,7 @@
 /* consts*/
 const btnMenu = document.getElementById("btnMain");
 const btnDoc = document.getElementById("btnDoc");
+const btnRepo = document.getElementById("btnRepo");
 /*Menu*/
 /*
   btnMenu.click = () =>{
@@ -13,5 +14,6 @@ btnMenu.addEventListener("click", function(){
 btnDoc.addEventListener("click", function(){
      window.location.href = 'https://abhipieznomnomnom.gitbook.io/abtnyc/';
    });
-
-/*wished i chould add onclick in js for the go back button*/
+btnRepo.addEventListener("click", function(){
+    window.location.href = 'https://github.com/TalkitiveDiv/AboutNYC';
+  });

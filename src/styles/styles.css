@@ -40,6 +40,10 @@ button {
   background-color: #13a76b;
 }
 
+#btnRepo{
+  background-color: #2FC9FF
+}
+
 .tbMenu {
   display: flex;
   justify-content: center;
@@ -51,7 +55,7 @@ button {
   margin-top: 10px;
   /*making size 100% so that it will be big enough*/
   size: 100%;
-  /*i dont even know what this is*/
+  /*i dont even know what this is but it works lo*/
   display: block;
   margin-left: auto;
   margin-right: auto;
